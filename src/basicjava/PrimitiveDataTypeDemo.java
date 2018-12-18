@@ -1,3 +1,7 @@
+package basicjava;
+
+import arraydemo.ArrayDemo;
+
 public class PrimitiveDataTypeDemo {
 
 
@@ -24,6 +28,15 @@ public class PrimitiveDataTypeDemo {
 
         Calculator myCasioCalculator = new Calculator();
         myCasioCalculator.sub();
+
+        ArrayDemo objArrayDemo = new ArrayDemo();
+        // a private variable value can be accessed by getter
+       int y = objArrayDemo.getX();
+       // a private variable value can be assigned by setter
+       int z = objArrayDemo.setX(4);
+        System.out.println(y); // 2,
+        System.out.println(z);
+
 
     }
 

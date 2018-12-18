@@ -1,5 +1,8 @@
-//Calculator Type class
+package basicjava;//basicjava.Calculator Type class
 
+import arraydemo.ArrayDemo;
+
+// When no access modifier is explicitly defined it is considered as default
 public class Calculator {
 
 
@@ -11,6 +14,8 @@ public class Calculator {
 
         System.out.println("I am in 2nd constructor " + x);
         int y = x +2;
+        int a = (2);
+        System.out.println("Value of 'a': " + a);
 
     }
 
@@ -51,6 +56,11 @@ public class Calculator {
         System.out.println("this method will multiply the values");
     }
 
+    public ArrayDemo createArray(){
+        System.out.println("I am in Calculator Class");
+        return new ArrayDemo();
+    }
+
     // This is called main method
     // This is the entry point to an application
     // to run main method no need help of an object
@@ -58,8 +68,8 @@ public class Calculator {
 
         System.out.println("I am in main method");
 
-        // We are creating Calculator type object
-        // Calculator() this is the constructor of Calculator
+        // We are creating basicjava.Calculator type object
+        // basicjava.Calculator() this is the constructor of basicjava.Calculator
         //Constructor will have same name as class name with (), by saying new you are invoking constructor
 
         // How to create an object?
