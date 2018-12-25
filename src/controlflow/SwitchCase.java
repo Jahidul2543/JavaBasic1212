@@ -3,25 +3,34 @@ package controlflow;
 public class SwitchCase {
     public static void main(String[] args) {
 
-        char grade = 'A';
-        int  marks;
-       SwitchCase obj = new SwitchCase();
+            String studentName = "Salma";
+            char grade = 'A';
+            int marks;
 
-        switch (grade){
-            case 'A' : obj.gradeAMarkRange();
-            break;
-            case 'F' : marks = 75;
-            break;
-            case 'D' : marks = 65;
-            break;
+            SwitchCase obj = new SwitchCase();
 
-            default: marks = 0;
-            break;
+            switch (grade) {
 
+                case 'A':
+                    obj.gradeAMarkRange();
+                    break;
 
+                case 'F':
+                    marks = 75;
+                    break;
+
+                case 'D':
+                    marks = 65;
+                    break;
+
+                default:
+                    marks = 0;
+                    break;
+
+            }
         }
        // System.out.println(marks);
-    }
+
 
     public void gradeAMarkRange(){
 

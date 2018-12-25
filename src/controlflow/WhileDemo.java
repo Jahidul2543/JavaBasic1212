@@ -17,7 +17,7 @@ public class WhileDemo {
        *
        * */
 
-        int count = 1;
+        int count = 4;
 
         while (count< 5){
 
