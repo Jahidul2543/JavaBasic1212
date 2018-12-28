@@ -4,7 +4,7 @@ public class ArrayDemo2 {
 
     public static void main(String[] args) {
         // Declare an array of length 6
-        int[] studentId = new int[7];
+        int[] studentId = new int[5];
         // Storing value in an array
         studentId[0] = 200;
         studentId[1] = 300;

@@ -10,6 +10,8 @@ public interface Mobile {
 
     public void sendText();
 
+
+
 }
 /*
 * interface >> Abstract class >> class

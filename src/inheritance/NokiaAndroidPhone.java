@@ -17,6 +17,7 @@ public class NokiaAndroidPhone extends NokiaSymbianPhone{
         System.out.println(" Touch Screen");
     }
 
+
     public static void main(String[] args) {
 
         NokiaAndroidPhone obj = new NokiaAndroidPhone();
