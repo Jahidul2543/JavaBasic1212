@@ -12,6 +12,7 @@ public interface Mobile {
 
 
 
+
 }
 /*
 * interface >> Abstract class >> class

@@ -1,4 +1,4 @@
-package list.collections.framework;
+package collections.framework;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -50,6 +50,17 @@ public class ListDemo {
 
         System.out.println( "Element at index 0: " + studentNameList.get(0));
         System.out.println( "Element at index 1: " + studentNameList.get(1));
+
+
+        /**
+         * Accessing elements of a list using foreach() method
+         *
+         * */
+        System.out.println("*******Accessing elements of a list using foreach() method*******");
+
+        studentNameList.forEach(student -> System.out.println("Student Name " + student));
+
+        //studentNameList.forEach(student -> System.out.println(student));
 
     }
 

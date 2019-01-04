@@ -1,6 +1,7 @@
-package list.collections.framework;
+package collections.framework;
 
 import java.util.HashSet;
+import java.util.Set;
 
 public class HashSetDemo {
     public static void main(String[] args) {
@@ -17,9 +18,27 @@ public class HashSetDemo {
        * It does not allow any duplicate value
        *
        * */
-        //  hashSet.add(null);
+
 
         System.out.println(hashSet);
+
+        /**
+         *  Access data from HashSet using foreach() method
+         *
+         * */
+        System.out.println("*******Access data from HashSet using foreach() method*******");
+
+        hashSet.forEach( name -> System.out.println(name));
+
+        /**
+         *  Access data from HashSet using foreach statement
+         *
+         * */
+
+        for (String st : hashSet) {
+            System.out.println(st);
+
+        }
 
     }
 }
