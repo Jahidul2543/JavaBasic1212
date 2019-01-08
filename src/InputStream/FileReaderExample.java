@@ -11,7 +11,9 @@ public class FileReaderExample {
             int i;
 
             while((i=fr.read())!=-1)
+
                 System.out.println((char)i);
+
             fr.close();
         }
     }

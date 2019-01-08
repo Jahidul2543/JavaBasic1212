@@ -16,7 +16,6 @@ public class ScannerClassExample1 {
             scan.close();
 
             System.out.println("--------Enter Your Details-------- ");
-
             Scanner scanner2 = new Scanner(System.in);
 
             System.out.print("Enter your name: ");

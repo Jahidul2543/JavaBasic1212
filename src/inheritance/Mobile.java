@@ -10,11 +10,15 @@ public interface Mobile {
 
     public void sendText();
 
+    default void disc(){
+
+    }
+
 
 
 
 }
-/*
+/**
 * interface >> Abstract class >> class
 *
 *
