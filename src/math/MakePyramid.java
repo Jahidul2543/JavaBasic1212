@@ -13,7 +13,7 @@ public class MakePyramid {
         //               * * * * * *
 
         //Start Here
-        int n = 10;
+        int n = 20;
         printTriagle(n);
     }
 
@@ -48,3 +48,16 @@ public class MakePyramid {
         }
     }
 }
+/**
+ *                   *
+ *                  * *
+ *                 * * *
+ *                * * * *
+ *               * * * * *
+ *              * * * * * *
+ *             * * * * * * *
+ *            * * * * * * * *
+ *           * * * * * * * * *
+ *          * * * * * * * * * *
+ *
+ * */
